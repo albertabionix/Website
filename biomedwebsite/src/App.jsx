@@ -1,6 +1,9 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+import logo from './images/logo.png'
+import instagram from './images/instagram.png'
+import linkedin from './images/linkedin.png'
 import './App.css'
 
 function App() {
@@ -8,7 +11,22 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className='site_block'>
+        <header className='header'>
+          <div className='title'>
+            <img className='logo_photo' src={logo}></img>
+            <h2 className='club_name'>Alberta Bionix</h2>
+          </div>
+          <div className='links'>
+            <a>Home</a>
+            <a>Projects</a>
+            <a>Contact</a>
+            <img className='insta' src={instagram}></img>
+            <img className='linkedin' src={linkedin}></img>
+          </div>
+        </header>
+      </div>
+      {/* <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -24,10 +42,7 @@ function App() {
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      </div> */}
     </>
   )
 }
