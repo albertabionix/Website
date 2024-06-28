@@ -2,6 +2,12 @@ import '../styles/body.css'
 import gear_photo from '../images/gear_photo.jpeg'
 import mission1 from '../images/mission1.jpg'
 import mission2 from '../images/mission2.jpg'
+import in_development from '../images/in_development.png'
+import medication_manager from '../images/smart_medication_monitor.png'
+import exo_arm from '../images/exo_arm.jpeg'
+import action2 from '../images/action2.png'
+import action1 from '../images/action1.png'
+import workshop from '../images/workshop.png'
 export default function Body() {
 
     return (
@@ -27,6 +33,40 @@ export default function Body() {
                 <div className='mission_photo_div'>
                     <img src={mission1}></img>
                     <img src={mission2}></img>
+                </div>
+            </div>
+
+            <div className='past_present_projects_body'>
+                <h1>Our Past & Present Projects</h1>
+                <div className='project_slide'>
+                    <div className='prosthetic_leg'>
+                        <img src={in_development}></img>
+                        <h1>BCI Prosthetic Leg</h1>
+                        <p>A prosthetic leg with brain computer interface. Users would be able to use the leg through brain signals.</p>
+                    </div>
+                    <div className='medication_manager'>
+                        <img src={medication_manager}></img>
+                        <h1>Smart Medication Manager</h1>
+                        <p>A device used to facilitate a user’s quality of life through medication management.</p>
+                    </div>
+                    <div className='exoskeleton'>
+                        <img src={exo_arm}></img>
+                        <h1>ALEX Exoskeleton</h1>
+                        <p>An upper body exoskeleton designed to reduce repetitive strain injury and provide feedback on a users’s posture.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div className='outreach_body'>
+                <div>
+                    <h2>OUR OUTREACH</h2>
+                    <h1>Clubs That Care</h1>
+                    <p>The Clubs That Care program supports Canadian university and college clubs to build assistive technology. This year, UABiomed participated in the program and assembled multiple types of assistive devices. All of the assembled devices were donated to rehabilitation and occupational therapy centres.</p>
+                </div>
+                <div>
+                    <img src={action1}></img>
+                    <img src={action2}></img>
+                    <img src={workshop}></img>
                 </div>
             </div>
         </div>
