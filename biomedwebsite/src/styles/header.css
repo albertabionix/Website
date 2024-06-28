@@ -1,0 +1,82 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+
+.logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+  }
+  .logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+  .logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }
+  .site_block {
+    justify-content: flex;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    /* padding-top: var(--wp--preset--spacing--30);
+    padding-right: var(--wp--preset--spacing--30);
+    padding-bottom: var(--wp--preset--spacing--30);
+    padding-left: var(--wp--preset--spacing--30); */
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .title {
+    display: flex;
+    align-items: center;
+  }
+  .club_name {
+    color: black;
+    font-family: Sans-serif;
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  .logo_photo {
+    margin-right: 15px;
+  }
+  .links {
+    color: black;
+    display: flex;
+    align-items: center;
+    font-family: Sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    gap: 10px;
+  }
+  .insta{
+    width: 30px;
+  }
+  .linkedin {
+    width: 30px;
+  }
+  
+  /* @keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+      animation: logo-spin infinite 20s linear;
+    }
+  } */
+  
+  
+  
