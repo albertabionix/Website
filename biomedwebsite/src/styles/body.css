@@ -1,0 +1,55 @@
+.intro {
+    display: flex;
+    border-right: 24px;
+    border-left: 24px;
+    border-top: 21px;
+    border-bottom: 21px;
+    align-items: center;
+    height: 650px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    border-right: 24px;
+    border-left: 24px;
+}
+
+.titlecontact {
+
+}
+.name {
+    font-size: 56px;
+    color: white;
+    font-family: "Readex Pro", sans-serif;
+}
+
+.school {
+    font-size: 24px;
+    color: white;
+    font-family: "Readex Pro", sans-serif;
+}
+.contactusbutton {
+    font-size: 16px;
+    background-color: transparent;
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    border-radius: 30px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-right: 10px;
+}
+.joinusbutton {
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    border-radius: 30px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
