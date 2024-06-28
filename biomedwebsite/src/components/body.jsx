@@ -5,6 +5,9 @@ import mission2 from '../images/mission2.jpg'
 import in_development from '../images/in_development.png'
 import medication_manager from '../images/smart_medication_monitor.png'
 import exo_arm from '../images/exo_arm.jpeg'
+import action2 from '../images/action2.png'
+import action1 from '../images/action1.png'
+import workshop from '../images/workshop.png'
 export default function Body() {
 
     return (
@@ -33,7 +36,7 @@ export default function Body() {
                 </div>
             </div>
 
-            <div className='past_present_projects'>
+            <div className='past_present_projects_body'>
                 <h1>Our Past & Present Projects</h1>
                 <div className='project_slide'>
                     <div className='prosthetic_leg'>
@@ -51,6 +54,19 @@ export default function Body() {
                         <h1>ALEX Exoskeleton</h1>
                         <p>An upper body exoskeleton designed to reduce repetitive strain injury and provide feedback on a users’s posture.</p>
                     </div>
+                </div>
+            </div>
+
+            <div className='outreach_body'>
+                <div>
+                    <h2>OUR OUTREACH</h2>
+                    <h1>Clubs That Care</h1>
+                    <p>The Clubs That Care program supports Canadian university and college clubs to build assistive technology. This year, UABiomed participated in the program and assembled multiple types of assistive devices. All of the assembled devices were donated to rehabilitation and occupational therapy centres.</p>
+                </div>
+                <div>
+                    <img src={action1}></img>
+                    <img src={action2}></img>
+                    <img src={workshop}></img>
                 </div>
             </div>
         </div>
