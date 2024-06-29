@@ -77,3 +77,64 @@
     color: black;
     font-family: "Readex Pro", sans-serif;
 }
+.mission_title {
+    font-size: 50px;
+    font-weight: bolder;
+    font-style: normal;
+    display: block;
+    box-sizing: border-box;
+    line-height: normal;
+    letter-spacing: normal;
+}
+.mission_desc{
+    box-sizing: border-box;
+    display: block;
+    font-size: 16px;
+    font-weight: normal;
+    margin-right: 48px;
+    text-align: left;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+.mission_photo_div{
+    /* box-sizing: border-box;
+    display: block;
+    flex-basis: 100%;
+    flex-grow: 1; */
+
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mission1 {
+    height: 300px;
+    /* width: 100%; */
+    margin-bottom: 10px;
+}
+.mission2 {
+    height: 300px;
+}
+.misson_body {
+    padding-top: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.mission_group {
+    /* display: flex; */
+    /* align-items: normal; */
+    /* flex-wrap: wrap;
+    max-width: 960px;
+    row-gap: 32px;
+    box-sizing: border-box; */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%; /* Adjust the width as needed */
+    max-width: 1200px; /* Adjust the max-width as needed */
+}
