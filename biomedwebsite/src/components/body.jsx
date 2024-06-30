@@ -26,13 +26,19 @@ export default function Body() {
             </div>
 
             <div className='misson_body'>
-                <div className='mission_text_div'>
-                    <h1 className='mission_title'>Our Mission</h1>
-                    <p className='mission_desc'>To foster an environment that encourages learning and innovation. With interdisciplinary solutions and collaboration amongst researchers, healthcare professionals, and non-for-profit organizations, UABiomed strives to create a more physiologically inclusive world through the development of accessibility technologies.</p>
-                </div>
-                <div className='mission_photo_div'>
-                    <img src={mission1}></img>
-                    <img src={mission2}></img>
+                <div className='mission_group'>
+                    <div className='mission_text_div'>
+                        <h1 className='mission_title'>Our Mission</h1>
+                        <p className='mission_desc'>To foster an environment that encourages learning and innovation. With interdisciplinary solutions and collaboration amongst researchers, healthcare professionals, and non-for-profit organizations, UABiomed strives to create a more physiologically inclusive world through the development of accessibility technologies.</p>
+                    </div>
+                    <div className='mission_photo_div'>
+                        <div className='mission1_div'>
+                            <img src={mission1} className='mission1'></img>
+                        </div>
+                        <div className='mission2_div'>
+                            <img src={mission2} className='mission2'></img>
+                        </div>
+                    </div>
                 </div>
             </div>
 
