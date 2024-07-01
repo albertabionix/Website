@@ -43,27 +43,35 @@ export default function Body() {
             </div>
 
             <div className='past_present_projects_body'>
-                <h1>Our Past & Present Projects</h1>
-                <div className='project_slide'>
-                    <div className='prosthetic_leg'>
-                        <img src={in_development}></img>
-                        <h1>BCI Prosthetic Leg</h1>
-                        <p>A prosthetic leg with brain computer interface. Users would be able to use the leg through brain signals.</p>
-                    </div>
-                    <div className='medication_manager'>
-                        <img src={medication_manager}></img>
-                        <h1>Smart Medication Manager</h1>
-                        <p>A device used to facilitate a user’s quality of life through medication management.</p>
-                    </div>
-                    <div className='exoskeleton'>
-                        <img src={exo_arm}></img>
-                        <h1>ALEX Exoskeleton</h1>
-                        <p>An upper body exoskeleton designed to reduce repetitive strain injury and provide feedback on a users’s posture.</p>
+                <div className='project_group'>
+                    <h1 className='pastpresent_title'>Our Past & Present Projects</h1>
+                    <div className='project_slide'>
+                        <div className='prosthetic_leg' style={{ backgroundImage: `url(${in_development})` }}>
+                            {/* <img className='project1' style={{ backgroundImage: `url(${in_development})` }}></img> */}
+                            <div className='gradient'>
+                                <h1 className='project_name'>BCI Prosthetic Leg</h1>
+                                <p className='proj_desc'>A prosthetic leg with brain computer interface. Users would be able to use the leg through brain signals.</p>
+                            </div>
+                        </div>
+                        <div className='medication_manager' style={{ backgroundImage: `url(${medication_manager})` }}>
+                            {/* <img src={medication_manager} className='project2'></img> */}
+                            <div className='gradient'>
+                                <h1 className='project_name'>Smart Medication Manager</h1>
+                                <p className='proj_desc'>A device used to facilitate a user’s quality of life through medication management.</p>
+                            </div>
+                        </div>
+                        <div className='exoskeleton' style={{ backgroundImage: `url(${exo_arm})` }}>
+                            {/* <img src={exo_arm} className='project3'></img> */}
+                            <div className='gradient'>
+                                <h1 className='project_name'>ALEX Exoskeleton</h1>
+                                <p className='proj_desc'>An upper body exoskeleton designed to reduce repetitive strain injury and provide feedback on a users’s posture.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div className='outreach_body'>
+            {/* <div className='outreach_body'>
                 <div>
                     <h2>OUR OUTREACH</h2>
                     <h1>Clubs That Care</h1>
@@ -74,7 +82,7 @@ export default function Body() {
                     <img src={action2}></img>
                     <img src={workshop}></img>
                 </div>
-            </div>
+            </div> */}
         </div>
 
     )
