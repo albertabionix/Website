@@ -71,18 +71,20 @@ export default function Body() {
                 </div>
             </div>
 
-            {/* <div className='outreach_body'>
-                <div>
-                    <h2>OUR OUTREACH</h2>
-                    <h1>Clubs That Care</h1>
-                    <p>The Clubs That Care program supports Canadian university and college clubs to build assistive technology. This year, UABiomed participated in the program and assembled multiple types of assistive devices. All of the assembled devices were donated to rehabilitation and occupational therapy centres.</p>
+            <div className='outreach_body'>
+                <div className='outreach_group'>
+                    <div className='outreach_titles'>
+                        <h2>OUR OUTREACH</h2>
+                        <h1>Clubs That Care</h1>
+                        <p>The Clubs That Care program supports Canadian university and college clubs to build assistive technology. This year, UABiomed participated in the program and assembled multiple types of assistive devices. All of the assembled devices were donated to rehabilitation and occupational therapy centres.</p>
+                    </div>
+                    <div className='outreach_images'>
+                        <img src={action1}></img>
+                        <img src={action2}></img>
+                        <img src={workshop}></img>
+                    </div>
                 </div>
-                <div>
-                    <img src={action1}></img>
-                    <img src={action2}></img>
-                    <img src={workshop}></img>
-                </div>
-            </div> */}
+            </div>
         </div>
 
     )
