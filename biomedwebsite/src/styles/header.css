@@ -57,6 +57,10 @@
     font-weight: bold;
     gap: 10px;
   }
+  .nav_link {
+    color: black;
+    text-decoration: none;
+  }
   .insta{
     width: 30px;
   }

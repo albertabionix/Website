@@ -1,16 +1,21 @@
 import './App.css'
 import Header from './components/header.jsx'
-import Body from './components/body.jsx'
-import Footer from './components/footer.jsx'
-
+import { Route, Routes } from 'react-router-dom';
+import Home from './pages/home.jsx'
+import Contact from './pages/contact.jsx'
+import Projects from './pages/projects.jsx'
 function App() {
-  // const [count, setCount] = useState(0)
 
   return (
     <div>
       <Header />
-      <Body />
-      <Footer />
+      <div>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/projects" element={<Projects />} />
+        </Routes>
+      </div>
     </div>
   )
 }
