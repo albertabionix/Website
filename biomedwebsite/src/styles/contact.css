@@ -1,0 +1,16 @@
+.contact {
+
+}
+.contact_group {
+    display: flex;
+    flex-direction: column;
+}
+.form {
+
+}
+.inputs {
+
+}
+.inputs > label {
+    color: black;
+}

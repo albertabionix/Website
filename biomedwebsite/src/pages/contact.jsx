@@ -1,4 +1,5 @@
 import React from 'react'
+import '../styles/contact.css'
 
 export default function Contact() {
 
@@ -28,33 +29,35 @@ export default function Contact() {
     };
 
     return (
-        <div>
-            <h1> Get In Touch</h1>
-            <form onSubmit={onSubmit}>
-                <div className='inputs'>
-                    <label>First Name</label>
-                    <input type='text' placeholder="Enter your first name" required />
-                </div>
-                <div className='inputs'>
-                    <label>Last Name</label>
-                    <input type='text' placeholder="Enter your last name" required />
-                </div>
-                <div className='inputs'>
-                    <label>Email</label>
-                    <input type='text' placeholder="Enter your email address" required />
-                </div>
-                <div className='inputs'>
-                    <label>Subject</label>
-                    <input type='text' placeholder="Enter a subject, example: Like to know more " required />
-                </div>
-                <div className='inputs'>
-                    <label>Message</label>
-                    <input type='text' placeholder="Enter your message" required />
-                </div>
-                <div className='inputs'>
-                    <button>Submit Form</button>
-                </div>
-            </form>
+        <div className='contact'>
+            <div className='contact_group'>
+                <h1> Get In Touch</h1>
+                <form onSubmit={onSubmit} className='form'>
+                    <div className='inputs'>
+                        <label>First Name</label>
+                        <input type='text' placeholder="Enter your first name" required />
+                    </div>
+                    <div className='inputs'>
+                        <label>Last Name</label>
+                        <input type='text' placeholder="Enter your last name" required />
+                    </div>
+                    <div className='inputs'>
+                        <label>Email</label>
+                        <input type='text' placeholder="Enter your email address" required />
+                    </div>
+                    <div className='inputs'>
+                        <label>Subject</label>
+                        <input type='text' placeholder="Enter a subject, example: Like to know more " required />
+                    </div>
+                    <div className='inputs'>
+                        <label>Message</label>
+                        <input type='text' placeholder="Enter your message" required />
+                    </div>
+                    <div className='inputs'>
+                        <button>Submit Form</button>
+                    </div>
+                </form>
+            </div>
         </div>
     )
 }
