@@ -1,0 +1,27 @@
+.current_projects{
+    color: black;
+    font-family: "Readex Pro", sans-serif;
+}
+.current_projects_group{
+
+}
+.proj_intro {
+    
+}
+.proj_intro > h1 {
+    font-weight: 800;
+    font-size: 50px;
+}
+.proj_intro > p {
+    font-size: 20px;
+    font-weight: 600;
+}
+.proj_details_group {
+    display: flex;
+}
+.proj_details {
+    width: 500px;
+}
+.proj_img > img{
+    width: 400px;
+}
