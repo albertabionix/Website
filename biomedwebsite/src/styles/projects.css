@@ -5,9 +5,9 @@
     flex-direction: column;
     align-items: center;
 }
-.current_projects_group{
-
-}
+.current_projects_group, .past_projects {
+    /* width: 100%; */
+}   
 .proj_intro {
     
 }

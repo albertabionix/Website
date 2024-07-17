@@ -55,6 +55,8 @@
     padding-left: 24px;
     padding-right: 24px;
     margin-right: 10px;
+    transition: background-color 0.80s;
+    /* transition: color 0.80s; */
 }
 .joinusbutton {
     /* align-items: center; */
@@ -69,11 +71,24 @@
     padding-bottom: 14px;
     padding-left: 24px;
     padding-right: 24px;
+    transition: background-color 0.80s;
+}
+.contactusbutton:hover {
+    /* border-width: 5px; */
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+.joinusbutton:hover {
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
 }
 
 /* mission */
 .misson_body {
     margin-top: 60px;
+    margin-bottom: 80px;
 }
 .mission_title, .mission_desc {
     color: black;

@@ -45,7 +45,7 @@ export default function Projects() {
                     </div>
                 </div>
 
-                <div className="current_projects_group">
+                <div className="past_projects">
                     <div className="alex_exo">
                         <div className="proj_details">
                             <h1>ALEX Exoskeleton</h1>
