@@ -47,13 +47,15 @@ export default function Projects() {
 
                 <div className="past_projects">
                     <div className="alex_exo">
-                        <div className="proj_details">
-                            <h1>ALEX Exoskeleton</h1>
-                            <h2>2018 – 2021</h2>
-                            <p>ALEX (ALberta EXoskeleton) is designed to supplement upper body strength and provide posture support. ALEX’s primary use is in working environments where repetitive lifting motions (i.e., stocking warehouses) are involved. This project’s focus was to prevent stress/strain-related injuries in the upper body.</p>
-                        </div>
-                        <div className="proj_img">
-                            <img src={exo_arm}></img>
+                        <div className="proj_details_group">
+                            <div className="proj_details">
+                                <h1>ALEX Exoskeleton</h1>
+                                <h2>2018 – 2021</h2>
+                                <p>ALEX (ALberta EXoskeleton) is designed to supplement upper body strength and provide posture support. ALEX’s primary use is in working environments where repetitive lifting motions (i.e., stocking warehouses) are involved. This project’s focus was to prevent stress/strain-related injuries in the upper body.</p>
+                            </div>
+                            <div className="proj_img">
+                                <img src={exo_arm}></img>
+                            </div>
                         </div>
                     </div>
                 </div>
