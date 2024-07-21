@@ -10,6 +10,10 @@ import action1 from '../images/action1.png'
 import workshop from '../images/workshop.png'
 export default function Body() {
 
+    const handleClick = () => {
+        window.open('https://docs.google.com/forms/d/e/1FAIpQLSc1HNtgYHIoqKi_pQI45CvOzvXrXaL662bOK0XVhI5QcLheGg/viewform', '_blank');
+      };
+    
     return (
         <div className='body'>
             <div className='intro_body' style={{ backgroundImage: `url(${gear_photo})` }}>
@@ -20,7 +24,7 @@ export default function Body() {
                     </div>
                     <div className='contact_buttons'>
                         <button className='contactusbutton'>Contact Us</button>
-                        <button className='joinusbutton'>Join Us</button>
+                        <button className='joinusbutton' onClick={handleClick}>Join Us</button>
                     </div>
                 </div>
             </div>

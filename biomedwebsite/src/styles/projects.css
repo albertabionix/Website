@@ -1,10 +1,14 @@
-.current_projects{
+.projects{
     color: black;
     font-family: "Readex Pro", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
-.current_projects_group{
-
-}
+.current_projects_group, .past_projects {
+    /* width: 100%; */
+}   
 .proj_intro {
     
 }
@@ -18,10 +22,25 @@
 }
 .proj_details_group {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
 }
 .proj_details {
     width: 500px;
 }
+.proj_details > p {
+    line-height: 28px;
+}
+.proj_img {
+    width: 500px;
+}
 .proj_img > img{
-    width: 400px;
+    width: 500px;
+    object-fit: fill;
+    margin-left: 30px;
+}
+
+.alex_exo {
+    margin-top: 60px;
 }
