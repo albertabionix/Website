@@ -18,8 +18,12 @@ export default function Header() {
           <Link to="/" className='nav_link'>Home</Link>
           <Link to="/projects" className='nav_link'>Projects</Link>
           <Link to="/contact" className='nav_link'>Contact</Link>
-          <img className='insta' src={instagram}></img>
+          <a href=''>
+            <img className='insta' src={instagram}></img>
+          </a>
+          <a href='https://www.linkedin.com/company/uabiomed/?originalSubdomain=ca'>
           <img className='linkedin' src={linkedin}></img>
+          </a>
         </div>
       </header>
     </nav>
