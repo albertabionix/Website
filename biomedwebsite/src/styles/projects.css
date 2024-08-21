@@ -40,7 +40,45 @@
     object-fit: fill;
     margin-left: 30px;
 }
-
 .alex_exo {
     margin-top: 60px;
+}
+
+/* for phone sized */
+@media only screen and (max-width: 600px) {
+    .projects {
+        align-items: center; /* Ensure all content centers on small screens */
+        padding: 20px; /* Add padding to prevent content from touching edges */
+    }
+
+    .proj_intro > h1 {
+        font-size: 32px; /* Reduce font size for better readability */
+        text-align: center; /* Center-align the project title */
+    }
+
+    .proj_intro > p {
+        font-size: 18px; /* Adjust font size for readability */
+        text-align: center; /* Center-align the project description */
+    }
+
+    .proj_details_group {
+        flex-direction: column; /* Stack project details and image vertically */
+        align-items: center; /* Center content in the column layout */
+    }
+
+    .proj_details, .proj_img {
+        width: 100%; /* Make project details and images take full width */
+        text-align: center; /* Center-align project details */
+        margin-bottom: 20px; /* Add space between details and image */
+    }
+
+    .proj_img > img {
+        width: 100%; /* Ensure images scale properly to fit screen width */
+        margin-left: 0; /* Remove left margin */
+        margin-top: 20px; /* Add space between image and details */
+    }
+
+    .alex_exo {
+        margin-top: 40px; /* Reduce top margin for better spacing */
+    }
 }
