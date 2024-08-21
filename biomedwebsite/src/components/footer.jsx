@@ -1,4 +1,6 @@
 import '../styles/footer.css'
+import { Link } from 'react-router-dom'
+import makers_logo from '../images/makerschange_logo.png'
 
 export default function Footer() {
     return (
@@ -8,9 +10,13 @@ export default function Footer() {
                     <h1>Thank you to our current sponsors!</h1>
                     <p>We appreciate all the support you’ve provided to our club.</p>
                 </div>
-                <img></img>
-                <button>Contact Us</button>
-                <button>Join Us</button>
+                <img src={makers_logo} className='makers_logo'></img>
+                <div className='footer_buttons'>
+                <Link to="/contact" className='contactusbutton'>Contact Us</Link>
+                    <a href='https://docs.google.com/forms/d/e/1FAIpQLSc1HNtgYHIoqKi_pQI45CvOzvXrXaL662bOK0XVhI5QcLheGg/viewform' target='blank'>
+                        <button className='joinusbutton'>Join Us</button>
+                    </a>
+                </div>
             </div>
 
             {/* <div class="custom-shape-divider-bottom-1720571185">

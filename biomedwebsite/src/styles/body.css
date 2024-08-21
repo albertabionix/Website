@@ -43,11 +43,14 @@
     text-align:center;
   }
 .contactusbutton {
+    font-family: "Readex Pro", sans-serif;
+    text-decoration: none;
     /* align-items: center; */
     font-size: 16px;
-    background-color: transparent;
+    background-color: #003366;
     border-style: solid;
-    border-color: white;
+    border-color: #003366;
+    color: white;
     border-width: 3px;
     border-radius: 30px;
     padding-top: 14px;
@@ -55,33 +58,30 @@
     padding-left: 24px;
     padding-right: 24px;
     margin-right: 10px;
-    transition: background-color 0.80s;
+    transition: 0.80s;
     /* transition: color 0.80s; */
 }
 .joinusbutton {
     /* align-items: center; */
     font-size: 16px;
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: #003366;
     border-style: solid;
-    border-color: white;
+    border-color: #003366;
     border-width: 3px;
     border-radius: 30px;
     padding-top: 14px;
     padding-bottom: 14px;
     padding-left: 24px;
     padding-right: 24px;
-    transition: background-color 0.80s;
+    transition: 0.8s;
+    width: 130px;
 }
-.contactusbutton:hover {
+.contactusbutton:hover, .joinusbutton:hover {
     /* border-width: 5px; */
     color: black;
-    background-color: white;
-    cursor: pointer;
-}
-.joinusbutton:hover {
-    color: white;
-    background-color: transparent;
+    background-color: rgb(245, 234, 193);
+    border-color: rgb(245, 234, 193);
     cursor: pointer;
 }
 
@@ -277,4 +277,127 @@
     height: 300px;
     object-fit: cover;
     border-radius: 20px;
+}
+
+
+/* For phone sized */
+/* Global settings for mobile responsiveness */
+@media only screen and (max-width: 600px) {
+    .intro_body {
+        height: auto;
+        padding: 20px;
+        border-width: 12px;
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+    }
+
+    .introandcontact {
+        width: 100%;
+        max-width: 600px;
+        margin-top: 20px;
+    }
+
+    .name {
+        font-size: 36px;
+    }
+
+    .school {
+        font-size: 18px;
+    }
+
+    .contact_buttons {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .contactusbutton, .joinusbutton {
+        font-size: 14px;
+        padding: 12px 20px;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .mission_title {
+        font-size: 32px;
+    }
+
+    .mission_desc {
+        font-size: 16px;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .mission_group {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .mission1_div, .mission2_div {
+        width: 100%;
+        height: auto;
+    }
+
+    .mission1, .mission2 {
+        border-radius: 10px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .pastpresent_title {
+        font-size: 32px;
+    }
+
+    .project_group {
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
+
+    .project_slide {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .prosthetic_leg, .medication_manager, .exoskeleton {
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .project_name {
+        font-size: 20px;
+    }
+
+    .proj_desc {
+        font-size: 16px;
+    }
+
+    .outreach_group {
+        padding: 0 20px;
+    }
+
+    .outreach_titles > h1 {
+        font-size: 32px;
+    }
+
+    .outreach_titles > h2 {
+        font-size: 20px;
+    }
+
+    .outreach_titles > p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .outreach_images {
+        flex-direction: column;
+    }
+
+    .outreach_images > img {
+        width: 100%;
+        height: auto;
+    }
 }

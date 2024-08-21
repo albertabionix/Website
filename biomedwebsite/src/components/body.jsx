@@ -8,10 +8,12 @@ import exo_arm from '../images/exo_arm.jpeg'
 import action2 from '../images/action2.png'
 import action1 from '../images/action1.png'
 import workshop from '../images/workshop.png'
+import { Link } from 'react-router-dom'
 export default function Body() {
 
+
     const handleClick = () => {
-        window.open('https://docs.google.com/forms/d/e/1FAIpQLSc1HNtgYHIoqKi_pQI45CvOzvXrXaL662bOK0XVhI5QcLheGg/viewform', '_blank');
+            window.open('https://docs.google.com/forms/d/e/1FAIpQLSc1HNtgYHIoqKi_pQI45CvOzvXrXaL662bOK0XVhI5QcLheGg/viewform', '_blank');
       };
     
     return (
@@ -23,7 +25,8 @@ export default function Body() {
                         <p className='school'>University of Alberta Bionix Technologies Development Group</p>
                     </div>
                     <div className='contact_buttons'>
-                        <button className='contactusbutton'>Contact Us</button>
+                        <Link to="/contact" className='contactusbutton'>Contact Us</Link>
+                        {/* <button className='contactusbutton' onClick={handleClick("contact")}>Contact Us</button> */}
                         <button className='joinusbutton' onClick={handleClick}>Join Us</button>
                     </div>
                 </div>

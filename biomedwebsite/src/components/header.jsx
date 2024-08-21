@@ -18,10 +18,10 @@ export default function Header() {
           <Link to="/" className='nav_link'>Home</Link>
           <Link to="/projects" className='nav_link'>Projects</Link>
           <Link to="/contact" className='nav_link'>Contact</Link>
-          <a href=''>
+          <a href='https://www.instagram.com/albertabionix/' target='blank'>
             <img className='insta' src={instagram}></img>
           </a>
-          <a href='https://www.linkedin.com/company/uabiomed/?originalSubdomain=ca'>
+          <a href='https://www.linkedin.com/company/uabiomed/?originalSubdomain=ca' target='blank'>
           <img className='linkedin' src={linkedin}></img>
           </a>
         </div>
