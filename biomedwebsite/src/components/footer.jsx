@@ -11,8 +11,8 @@ export default function Footer() {
                     <p>We appreciate all the support you’ve provided to our club.</p>
                 </div>
                 <img src={makers_logo} className='makers_logo'></img>
-                <div className='footer_buttons'>
-                <Link to="/contact" className='contactusbutton'>Contact Us</Link>
+                <div className='contact_buttons'>
+                    <Link to="/contact" className='contactusbutton'>Contact Us</Link>
                     <a href='https://docs.google.com/forms/d/e/1FAIpQLSc1HNtgYHIoqKi_pQI45CvOzvXrXaL662bOK0XVhI5QcLheGg/viewform' target='blank'>
                         <button className='joinusbutton'>Join Us</button>
                     </a>

@@ -308,15 +308,16 @@
 
     .contact_buttons {
         flex-direction: column;
+        align-items: center;
         gap: 10px;
-        width: 100%;
+        /* width: 100%; */
     }
 
     .contactusbutton, .joinusbutton {
         font-size: 14px;
         padding: 12px 20px;
         margin: 0 auto;
-        width: 90%;
+        /* width: 90%; */
     }
 
     .mission_title {
