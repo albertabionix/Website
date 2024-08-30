@@ -36,9 +36,14 @@
     width: 500px;
 }
 .proj_img > img{
+    border-radius: 20px;
     width: 500px;
     object-fit: fill;
     margin-left: 30px;
+    transition: 0.2s;
+}
+.proj_img > img:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
 .alex_exo {
     margin-top: 60px;
