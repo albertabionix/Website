@@ -15,9 +15,9 @@ export default function Projects() {
                 </div>
                 <div className="proj_details_group">
                     <div className="proj_details">
-                        <h1>EXO 2.0</h1>
+                        <h1>Leg Prosthetic</h1>
                         <h2>2023 – Present</h2>
-                        <p>A lower-limb robotic rehabilitation exoskeleton with brain-computer interface (BCI) integration intended to provide locomotive assistance device for people with complete motor dysfunction.</p>
+                        <p>The project aims to deliver a prototype of a leg prosthesis, with working mechanical and electrical systems. Machine learning algorithms will be implemented in future iterations of the leg prosthetic. A strong emphasis of the project is placed on providing members with technical experience in a range of engineering and scientific areas.</p>
                     </div>
                     <div className="proj_img">
                         <img src={in_development}></img>
@@ -36,8 +36,7 @@ export default function Projects() {
                             <h1>Smart Medication Manager</h1>
                             <h2>2022 – 2023</h2>
                             <p>Designed to eliminate the human error of remembering to take a specified dosage of medication. The device tracks medication type and dosage dispensed to ensure the user receives the correct intake. It consists of three subsystems: a pill dispensing mechanism, a user interface (UI), and input/output (I/O) controls.</p>
-                            <p>The medication manager was submitted to the 2023 James Dyson Award Competition. Click the button below to learn more about our submission!</p>
-                            <button>2023 james Dyson Award Submission</button>
+                            <p>The medication manager was submitted to the 2023 James Dyson Award Competition and made it through the first round.</p>
                         </div>
                         <div className="proj_img">
                             <img src={medication_manager}></img>

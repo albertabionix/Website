@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import logo from '../images/logo.png';
 import instagram from '../images/instagram.png';
 import linkedin from '../images/linkedin.png';
@@ -8,9 +8,25 @@ import '../styles/header.css';
 export default function Header() {
   const [sidebarVisible, setSidebarVisible] = useState(false);
 
+  // Function to toggle the sidebar visibility
   function showSidebar() {
     setSidebarVisible(!sidebarVisible);
   }
+
+  // Function to handle screen resize and update sidebar visibility
+  function handleResize() {
+    if (window.innerWidth > 600) {
+      setSidebarVisible(false); // Hide sidebar if screen width is more than 600px
+    }
+  }
+
+  // Add event listener on mount and cleanup on unmount
+  useEffect(() => {
+    window.addEventListener('resize', handleResize);
+    
+    // Clean up the event listener when the component unmounts
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   return (
     <nav className='site_block'>
