@@ -6,8 +6,11 @@
 .header {
   display: flex;
   justify-content: space-between;
-  margin-left: 20%;
-  margin-right: 20%;
+  gap: 50px;
+  column-gap: 24px;
+  /* margin-left: 20%; */
+  /* margin-right: 20px; */
+  /* padding-right: 50px; */
 }
 
 .title {
@@ -18,23 +21,22 @@
 .club_name {
   color: black;
   font-family: Sans-serif;
-  font-size: 24px;
+  font-size: 30px;
   margin-right: 10px;
+  letter-spacing: 1px;
 }
 
 .logo_photo {
   margin-right: 15px;
 }
 
-/* .links {
-  color: black;
-  display: flex;
-  align-items: center;
-  font-family: Sans-serif;
-  font-size: 20px;
-  font-weight: bold;
-  gap: 10px;
-} */
+.links {
+  /* display: flex;
+  align-items: center; 
+  gap: 25px;   */
+  /* margin-left: 20px; */
+}
+
 .main_links {
   color: black;
   display: flex;
@@ -43,6 +45,7 @@
   font-size: 20px;
   font-weight: bold;
   gap: 20px;
+  letter-spacing: 0.5px;
 }
 
 .nav_link {

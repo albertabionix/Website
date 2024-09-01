@@ -37,7 +37,7 @@ export default function Header() {
         </div>
         <div className='links'>
           <div className='main_links'>
-            <Link to="/Website/" className='nav_link'>Home</Link>
+            <Link to="/" className='nav_link'>Home</Link>
             <Link to="/projects" className='nav_link'>Projects</Link>
             <Link to="/contact" className='nav_link'>Contact</Link>
             <a href='https://www.instagram.com/albertabionix/' target='blank'>
