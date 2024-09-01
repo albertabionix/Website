@@ -1,6 +1,6 @@
 import React from "react"
 import '../styles/projects.css'
-import in_development from '../images/in_development.png'
+import in_development from '../images/leg.png'
 import medication_manager from '../images/smart_medication_monitor.png'
 import exo_arm from '../images/exo_arm.jpeg'
 
