@@ -32,7 +32,7 @@ export default function Header() {
     <nav className='site_block'>
       <header className='header'>
         <div className='title'>
-          <img className='logo_photo' src={logo} alt="Alberta Bionix Logo"></img>
+          <a href='/'><img className='logo_photo' src={logo} alt="Alberta Bionix Logo"></img></a>
           <h2 className='club_name'>Alberta Bionix</h2>
         </div>
         <div className='links'>
