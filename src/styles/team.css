@@ -12,7 +12,7 @@
     justify-content: center
 } */
 .card{
-    background-color: #343C3D;
+    background-color: #e9e7e4;
     border-radius: 20px;
     width: 1000px;
     padding-bottom: 20px;
@@ -30,7 +30,7 @@
     float: left;
 }
 .name{
-    color: #00D0B1;
+    color: #780000;
     max-width: fit-content;
     margin-left: auto;
     margin-right: auto;
@@ -39,7 +39,7 @@
     text-align: center;
 }
 .role{
-    color: #3E8BCB;
+    color: #7A7A7A;
     max-width: fit-content;
     margin-left: auto;
     margin-right: auto;
