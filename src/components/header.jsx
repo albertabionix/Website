@@ -40,6 +40,8 @@ export default function Header() {
             <Link to="/" className='nav_link'>Home</Link>
             <Link to="/projects" className='nav_link'>Projects</Link>
             <Link to="/contact" className='nav_link'>Contact</Link>
+            <Link to="/team" className='nav_link'>Team</Link>
+            
             <a href='https://www.instagram.com/albertabionix/' target='blank'>
               <img className='insta' src={instagram} alt="Instagram"></img>
             </a>
@@ -65,6 +67,7 @@ export default function Header() {
             <li><Link to="/">Home</Link></li>
             <li><Link to="/projects">Projects</Link></li>
             <li><Link to="/contact">Contact</Link></li>
+            <li><Link to="/team">Team</Link></li>
             <li>
               <a href='https://www.instagram.com/albertabionix/' target='blank'>
                 Instagram
