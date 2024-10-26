@@ -1,0 +1,64 @@
+{
+    "team": [
+        {
+            "name": "Bryant Casem",
+            "position": "President",
+            "description": "Bryant Casem is a fourth year mechanical engineering student specializing in biomedical engineering at the University of Alberta. Since first year, his goal has been to bring opportunities in medtech to our North Campus, starting with the AKA leg prosthetic. Outside of Alberta Bionix, he has taught public speaking classes with SpeechDojo and keeps active through hockey, bachata, and salsa.",
+            "image": "ardenmonaghan.jpg"
+        },
+        {
+            "name": "Max Konowalec",
+            "position": "Control Systems and Hardware Team Lead",
+            "description": "Max Konowalec is a fourth year nano-electrical engineering student at the University of Alberta. Max is passionate about using engineering to make a difference in the medical world. He currently leads all electrical systems for the AKA leg prosthetic. In his pastime, he loves nothing more than to mess around with music, making musical circuits and he dreams of making his own synthesizer one day.",
+            "image": "ardenmonaghan.jpg"
+        },
+        {
+            "name": "Glenice Sapngad",
+            "position": "VP Internal",
+            "description": "Glenice Sapngad is a second-year mechanical engineering student specializing in biomedical engineering at the University of Alberta. She has always had a strong passion for integrating engineering with the medical field in practical applications. Beyond her engineering pursuits, she enjoys expressing her innovation through art and music in her free time.",
+            "image": "ardenmonaghan.jpg"
+        },
+        {
+            "name": "Lance Quinto",
+            "position": "EMG and Machine Learning Team Lead",
+            "description": "Lance Quinto is a third year computer-software engineering student at the University of Alberta. He has always had a passion for medicine and is looking for ways to combine medicine and technology together to help those in need. Outside of engineering, Lance keeps in touch with his active side by playing volleyball and badminton weekly.",
+            "image": "ardenmonaghan.jpg"
+        },
+        {
+            "name": "Alan Ildephonse Sheen",
+            "position": "Mechanical Co-Lead",
+            "description": "Alan Sheen is a fourth year mechanical engineering student at the University of Alberta. He is very passionate about design engineering and working with interdisciplinary teams for product development. He stays in touch with his creative side by creating artwork in both digital and traditional form!",
+            "image": "ardenmonaghan.jpg"
+        },
+        {
+            "name": "Yatharth Gupta",
+            "position": "Mechanical Co-Lead",
+            "description": "Yatharth Gupta is a fourth year mechanical co-op engineering student at the University of Alberta. He is interested in all facets of mechanical design and loves to work with and learn from interdisciplinary members to develop new products. Outside of Bionix, Yatharth likes to spend his time playing basketball and traveling.",
+            "image": "ardenmonaghan.jpg"
+        },
+        {
+            "name": "Bennett Klein",
+            "position": "VP Finance",
+            "description": "Bennett Klein is a fourth year mechanical co-op engineering student, specializing in biomedical engineering at the University of Alberta. He is passionate about engineering, with an emphasis on backend work like project management and administration. Outside of school, Bennett likes to swim, read, and chill out and game with friends.",
+            "image": "ardenmonaghan.jpg"
+        },
+        {
+            "name": "Shaiva Patel",
+            "position": "VP Outreach",
+            "description": "Shaiva Patel is a fifth year mechanical engineering student with a minor in Mathematics at the University of Alberta. She has always been passionate about mathematics and engineering, enjoying the challenge of solving problems. Outside of her coursework, she loves yoga and biking, which help her maintain a balanced lifestyle.",
+            "image": "ardenmonaghan.jpg"
+        },
+        {
+            "name": "Grace Yin",
+            "position": "Physiological Research Team Lead ",
+            "description": "Grace Yin is a 3rd year nursing student at the University of Alberta. She is passionate about anatomy and pharmacology, and works with the biological side of things on the AKA leg prosthetic. Outside of nursing, she likes to travel to experience different cultures and places, and read.",
+            "image": "ardenmonaghan.jpg"
+        },
+        {
+            "name": "Janelle Wong",
+            "position": "VP Marketing",
+            "description": "Janelle Wong is a fifth year mechanical engineering student at the University of Alberta. She is excited to use her engineering and biomedical knowledge towards developing healthcare technologies. Outside of club activities, Janelle enjoys watching Oilers games, kickboxing, painting, and graphic design.",
+            "image": "ardenmonaghan.jpg"
+        }
+    ]
+}
