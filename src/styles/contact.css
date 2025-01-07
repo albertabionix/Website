@@ -203,24 +203,27 @@ form .form-row .textarea {
     /* transition: all 0.4s; */
 }
 
-@media (max-width: 700px) {
-    .container .text {
-        font-size: 30px;
+@media (max-width: 600px) {
+    .contact_group {
+        padding: 10px 10px; /* Further reduce padding on very small screens */
     }
 
-    .container form {
+    .contact_group .title > h1 {
+        font-size: 24px; /* Further reduce font size for very small screens */
+        margin-bottom: 8px; /* Further reduce bottom margin */
+    }
+
+    .contact_group form {
         padding: 10px 0 0 0;
     }
 
-    .container form .form-row {
-        display: block;
-    }
-
-    form .form-row .input-data {
-        margin: 35px 0 !important;
+    .form-row .input-data {
+        margin: 10px 0; /* Further reduce margin for better spacing */
     }
 
     .submit-btn .input-data {
-        width: 40% !important;
+        width: 70%; /* Make the submit button larger on small screens */
+        height: 35px; /* Further reduce button height */
     }
 }
+

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import logo from '../images/logo.png';
-import instagram from '../images/instagram.png';
-import linkedin from '../images/linkedin.png';
+import logo from './logo.png';
+import instagram from './instagram.png';
+import linkedin from './linkedin.png';
 import { Link } from 'react-router-dom';
 import '../styles/header.css';
 
@@ -62,16 +62,16 @@ export default function Header() {
 
           {/* Sidebar menu */}
           <ul className={`drop_down_menu_contents ${sidebarVisible ? 'visible' : 'hidden'}`}>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/projects">Projects</Link></li>
-            <li><Link to="/contact">Contact</Link></li>
+            <li><Link to="/" onClick={showSidebar}>Home</Link></li>
+            <li><Link to="/projects" onClick={showSidebar}>Projects</Link></li>
+            <li><Link to="/contact" onClick={showSidebar}>Contact</Link></li>
             <li>
-              <a href='https://www.instagram.com/albertabionix/' target='blank'>
+              <a href='https://www.instagram.com/albertabionix/' target='blank' onClick={showSidebar}>
                 Instagram
               </a>
             </li>
             <li>
-              <a href='https://www.linkedin.com/company/uabiomed/?originalSubdomain=ca' target='blank'>
+              <a href='https://www.linkedin.com/company/uabiomed/?originalSubdomain=ca' target='blank' onClick={showSidebar}>
                 LinkedIn
               </a>
             </li>

@@ -1,8 +1,8 @@
 import React from "react"
 import '../styles/projects.css'
-import in_development from '../images/leg.png'
-import medication_manager from '../images/smart_medication_monitor.png'
-import exo_arm from '../images/exo_arm.jpeg'
+import in_development from './leg.png'
+import medication_manager from './smart_medication_monitor.png'
+import exo_arm from './exo_arm.jpeg'
 
 export default function Projects() {
 
