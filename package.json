@@ -1,5 +1,5 @@
 {
-  "homepage": "https://albertabionix.github.io/Website/",
+  "homepage": "https://albertabionix.github.io/",
   "name": "biomedwebsite",
   "private": true,
   "version": "0.0.0",
@@ -10,8 +10,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.3.1",

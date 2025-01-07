@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/contact.css';
 
 export default function Contact() {
-    const [result, setResult] = React.useState("");
+    const [result, setResult] = React.useState("submit");
 
     const onSubmit = async (event) => {
         event.preventDefault();
@@ -12,10 +12,13 @@ export default function Contact() {
         formData.append("access_key", "88a7a32d-3235-4b44-8442-055264cff7bc");
 
         try {
-            const response = await fetch("https://api.web3forms.com/submit", {
-                method: "POST",
-                body: formData
-            });
+            const response = await fetch('https://api.web3forms.com/submit', {
+                method: 'POST',
+                headers: {
+                  'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(data),
+             });
 
             const data = await response.json();
             console.log(data); // Log the response data for debugging
@@ -66,10 +69,12 @@ export default function Contact() {
                         </div>
                     </div>
                     <div className="form-row submit-btn">
-                        <div className="input-data">
-                            <div className="inner"></div>
-                            <input type="submit" value="Submit" />
-                        </div>
+                        {/* <div className="input-data">
+                            <input type="submit"/>
+                        </div> */}
+                        <button className='input-data'>
+                            {result}
+                        </button>
                     </div>
                 </form>
                 <span>{result}</span>

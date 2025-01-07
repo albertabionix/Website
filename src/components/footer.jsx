@@ -1,6 +1,6 @@
 import '../styles/footer.css'
 import { Link } from 'react-router-dom'
-import makers_logo from '../images/makerschange_logo.png'
+import makers_logo from './makerschange_logo.png'
 
 export default function Footer() {
     return (
